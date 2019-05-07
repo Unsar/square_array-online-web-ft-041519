@@ -2,6 +2,6 @@ require 'pry'
 
 def square_array(array)
   arrays = []
-  array.each {|number| number*number}
+  array.each {|number| arrays.pushnumber*number}
   return arrays
 end
